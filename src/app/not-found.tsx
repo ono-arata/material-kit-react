@@ -25,10 +25,10 @@ export default function NotFound(): React.JSX.Element {
           />
         </Box>
         <Typography variant="h3" sx={{ textAlign: 'center' }}>
-          404: The page you are looking for isn&apos;t here
+          404: お探しのページは存在しません。
         </Typography>
         <Typography color="text.secondary" variant="body1" sx={{ textAlign: 'center' }}>
-          You either tried some shady route or you came here by mistake. Whichever it is, try using the navigation
+          お探しのページが見つかりませんでした。ダッシュボードより再度お試しください。
         </Typography>
         <Button
           component={RouterLink}
